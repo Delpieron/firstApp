@@ -18,12 +18,12 @@ class _MyAppState extends State<MyApp> {
       'answers': ['black', 'red', 'orange', 'white'],
     },
     {
-      'questionText': '1 question',
-      'answers': ['black', 'red', 'orange', 'white'],
+      'questionText': '2 question',
+      'answers': ['black', 'red2', 'orange', 'white'],
     },
     {
-      'questionText': '1 question',
-      'answers': ['black', 'red', 'orange', 'white'],
+      'questionText': '3 question',
+      'answers': ['black', 'red3', 'orange', 'white'],
     },
   ];
   var _questionIndex = 0;
