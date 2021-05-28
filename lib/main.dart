@@ -53,6 +53,8 @@ class _MyAppState extends State<MyApp> {
   }
 
   void _resetQuiz() {
+    print(_totalScore);
+
     setState(() {
       _questionIndex = 0;
       _totalScore = 0;

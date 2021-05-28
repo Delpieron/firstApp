@@ -28,7 +28,7 @@ class Result extends StatelessWidget {
           resultPhrase,
           style: TextStyle(fontSize: 38, fontWeight: FontWeight.bold),
         ),
-        FlatButton(onPressed: () => resetHandler, child: Text('Restart'))
+        FlatButton(onPressed: () => resetHandler(), child: Text('Restart'))
       ],
     ));
   }
